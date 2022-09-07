@@ -15,7 +15,7 @@ I used curl to send the Unix dictionary to the proxy server 20 times, which prox
 ## Client
 
 ```sh
-time curl upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words 127.0.0.1:3000/ && kill $(pbpaste)
+time curl -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words -F upload=@/usr/share/dict/words 127.0.0.1:3000/ && kill $(pbpaste)
 ```
 
 ## Proxy server
